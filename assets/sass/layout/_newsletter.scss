@@ -1,0 +1,26 @@
+.newsletter {
+    background-color: #f2f4f5;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    clear:both;
+}
+
+.newsletter h2 {
+    font-size: 24px
+}
+
+.newsletter__subscription input,
+.newsletter__subscription button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+
+}
+
+.newsletter__subscription button {
+    background-color: coral;
+    color: white;
+}
+

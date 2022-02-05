@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+#site-wrapper {
+    margin: 0 auto;
+
+    @include respond-to('small') {
+    	width: 100%;
+   	
+ 	}
+
+	@include respond-to('medium') {
+		width: 100%;
+   	
+	}
+
+	@include respond-to('large') {
+		width: 960px;
+   	
+ 	}
+
+	@include respond-to('extralarge') {
+   		width: 960px;
+	}
+}
+
+
+
+
+
